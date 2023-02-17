@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Água</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo3.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body style="background-color: #707d9d;">
+    <h1 class="selection">Projeto Hidrate-se</h1>
+    <section id="main">
+        <div class="selection">
+            <input type="text" placeholder="Digite o seu nome" id="nome"><br>
+            <input type="number" placeholder="Digite seu peso" id="peso"><br>
+            <input type="button" value="Calcular" id="btn_nome_peso" onclick="calcular()">
+        </div>
+        <div>
+            <p id="ml_agua">-</p>
+        </div>
+        <div>
+            <p id="resposta">-</p>
+            
+        </div>
+        <div>
+            <p id="letsGo" class="selection">Vamos se Hidratar?</p>
+            <p class="selection">A cada copo de água que você beber, marque abaixo!</p>
+            <div class="selection">
+                <input type="button" value="100ml" class="medida" id="ml100" onclick="ml100()">
+                <input type="button" value="150ml" class="medida" id="ml150" onclick="ml150()">
+                <input type="button" value="250ml" class="medida" id="ml250" onclick="ml250()">
+                <input type="button" value="300ml" class="medida" id="ml300" onclick="ml300()">
+                <input type="button" value="500ml" class="medida" id="ml500" onclick="ml500()">
+                <input type="button" value="1000ml" class="medida" id="ml1000" onclick="ml1()"> 
+            </div>
+        </div>
+        <div id="ondasOndas">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 80" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="#7cf6fd" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="#317ac7" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="#dad7a3" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#707d9d" />
+            </g>
+            </svg>
+            </div>
+    </section>
+    
+    
+        <footer>
+            <p id="roda_pe">Jeff Alech&COPY;</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>

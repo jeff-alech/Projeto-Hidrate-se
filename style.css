@@ -1,0 +1,124 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+}
+h1 {
+  text-align: center;
+  color: #fcf9bf;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight:600;
+  letter-spacing: 15px;
+  font-size:28px;
+  margin: 30px 0 30px 0;
+  text-shadow: 3px 10px 2px rgba(0, 0, 0, 0.3);
+}
+p#letsGo{
+  text-align: center;
+  color: #333333;
+  text-transform: capitalize;
+  font-family: 'Lato', sans-serif;
+  font-weight:600;
+  letter-spacing: 2px;
+  font-size:20px;
+  margin: 30px 0 30px 0
+}
+p{
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 3px;
+  font-size:13px;
+  color: #333333;
+  text-transform: capitalize;
+  margin: 0 10px 30px 10px;
+}
+section{
+    position: ab;
+    background-color: #fcf9bf;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+p#roda_pe{
+  text-align: center;
+  color: #fcf9bf;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 90px;
+}
+#ondasOndas{
+    position:absolute;
+    margin: -3px 0 0 0;
+    width: 300px;
+}
+input#nome, input#peso{
+  width: 250px;
+  height: 20px;
+  background-color: #fcf9bf;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 15px;
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+input#btn_nome_peso, input.medida{
+  background-color: #707d9d;
+  border: none;
+  width: 150px;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  color: #fcf9bf;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+p#ml_agua, p#resposta{
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: 'Lato', sans-serif;
+  color: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+p#resposta{
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #dad7a3;
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  border-radius: 8px;
+  line-height: 40px;
+}
+span#ml{
+  color: #333333;
+}
+p#ml_agua::selection, p#resposta::selection, .selection::selection{
+  background-color: transparent;
+}
+input.medida{
+  width: 90px;
+}
+input#ml300, input#ml500, input#ml1{
+  margin-bottom: 20px;
+}
+input.medida:hover, input#btn_nome_peso:hover{
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+
